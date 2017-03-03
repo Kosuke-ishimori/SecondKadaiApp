@@ -27,7 +27,9 @@ class ViewController: UIViewController {
         
         let nameViewController: NameViewController = segue.destination as! NameViewController
         
-        nameViewController.name = textField.text!
+        //        nameViewController.name = textField.text!
+
+        nameViewController.name = "こんにちは，\(textField.text!)さん"
         
     }
 
