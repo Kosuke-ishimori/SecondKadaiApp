@@ -12,6 +12,7 @@
 		7A132D331E684486007D6E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A132D311E684486007D6E78 /* Main.storyboard */; };
 		7A132D351E684486007D6E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A132D341E684486007D6E78 /* Assets.xcassets */; };
 		7A132D381E684486007D6E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A132D361E684486007D6E78 /* LaunchScreen.storyboard */; };
+		7A132D401E6844E0007D6E78 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A132D3F1E6844E0007D6E78 /* NameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7A132D341E684486007D6E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A132D371E684486007D6E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A132D391E684486007D6E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A132D3F1E6844E0007D6E78 /* NameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7A132D2D1E684486007D6E78 /* AppDelegate.swift */,
 				7A132D2F1E684486007D6E78 /* ViewController.swift */,
+				7A132D3F1E6844E0007D6E78 /* NameViewController.swift */,
 				7A132D311E684486007D6E78 /* Main.storyboard */,
 				7A132D341E684486007D6E78 /* Assets.xcassets */,
 				7A132D361E684486007D6E78 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				7A132D301E684486007D6E78 /* ViewController.swift in Sources */,
 				7A132D2E1E684486007D6E78 /* AppDelegate.swift in Sources */,
+				7A132D401E6844E0007D6E78 /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
